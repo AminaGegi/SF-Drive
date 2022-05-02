@@ -1,0 +1,46 @@
+@import "all.scss";
+
+footer {
+    background: #3F3D56;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center; }
+
+.footer__frame {
+    margin: 0 40px;
+    height: 124px; }
+@media screen and (min-width: 1360px) {
+    .footer__frame {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; } }
+@media screen and (max-width: 1359px) {
+    .footer__frame {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start; } }
+.footer__frame-copy {
+    font-size: 16px;
+    color: #fff;
+    opacity: 40%; }
+@media screen and (max-width: 1359px) {
+    .footer__frame-copy {
+        margin-top: 30px; } }
+.footer__frame-links {
+    font-size: 27px; }
+@media screen and (min-width: 1360px) {
+    .footer__frame-links {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between; } }
+@media screen and (max-width: 1359px) {
+    .footer__frame-links {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 33px; } }
+.footer__frame-links a {
+    margin-right: 19.33px;
+    color: #fff; }
+.footer__frame-links a:hover {
+    color: #828282; }

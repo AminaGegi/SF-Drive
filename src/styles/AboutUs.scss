@@ -1,0 +1,63 @@
+@import "all";
+
+.contacts .content-container {
+    padding: 40px 0 80px 0; }
+@media screen and (min-width: 1360px) {
+    .contacts .content-container {
+        width: 666px; } }
+@media screen and (max-width: 1359px) {
+    .contacts .content-container {
+        width: 100%; } }
+
+@media screen and (min-width: 1360px) {
+    .contacts-block {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between; } }
+
+@media screen and (max-width: 1359px) {
+    .contacts-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; } }
+
+.contacts-block-email {
+    width: 264px;
+    height: 62px; }
+@media screen and (min-width: 1360px) {
+    .contacts-block-email {
+        padding-right: 69px;
+        border-right: 1px solid #C8C8CF; } }
+@media screen and (max-width: 1359px) {
+    .contacts-block-email {
+        margin-bottom: 20px; } }
+
+.contacts-block-phone {
+    width: 264px;
+    height: 62px; }
+
+.contacts-block-name {
+    color: #4F4F4F;
+    font-size: 14px;
+    margin-bottom: 5px; }
+
+.contacts-block-content {
+    font-size: 20px;
+    color: #000; }
+
+.team__frame-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+.team__frame-container-item {
+    margin: 15px 40px 60px; }
+.team__frame-container-item-name {
+    font-family: "Roboto Medium";
+    font-size: 20px;
+    width: 196px;
+    height: 29px;
+    margin: 23px 0 8px 0; }
+.team__frame-container-item-prof {
+    color: #828282;
+    font-size: 14px; }
